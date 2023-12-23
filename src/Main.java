@@ -1,12 +1,17 @@
-import java.util.List;
+import java.io.File;
+import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String filePath = "textFile.csv";
-        List<CSVObjects> csvData = CSVParser.parseCSV(filePath);
-
-        for (CSVObjects record : csvData) {
-            System.out.println(record);
+        File file = new File("textFile.csv");
+        if (!file.exists()) {
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
+        Menu menu = new Menu();
+        menu.run();
     }
 }
