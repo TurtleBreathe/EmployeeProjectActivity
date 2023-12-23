@@ -18,15 +18,15 @@ This Java project provides a simple CSV parser and activity tracker for managing
 1. **Prerequisites:**
 ..* Java Development Kit (JDK) installed on your machine.
 2. **Setup:**
-..*Clone or download the project to your local machine.
-..*Ensure you have the necessary permissions to read and write to the CSV file.
+..* Clone or download the project to your local machine.
+..* Ensure you have the necessary permissions to read and write to the CSV file.
 3. **Run the Application:**
-..*Navigate to the project directory.
-..*Compile the Java files using a command like javac *.java.
-..*Run the application with java Main.
+..* Navigate to the project directory.
+..* Compile the Java files using a command like javac *.java.
+..* Run the application with java Main.
 4. **Interact with the Menu:**
-..*Follow the on-screen menu options to perform various actions, such as adding, updating, or displaying employee activities.
-..*To save changes and exit, select the "Save & Exit" option.
+..* Follow the on-screen menu options to perform various actions, such as adding, updating, or displaying employee activities.
+..* To save changes and exit, select the "Save & Exit" option.
 
 ### Notes
 ..* This project is a console-based application and does not have a graphical user interface (GUI).
