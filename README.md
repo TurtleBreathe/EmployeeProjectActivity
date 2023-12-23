@@ -1,5 +1,5 @@
 # EmployeeProjectActivity
-Employee Activity Tracker
+## Employee Activity Tracker
 This Java project provides a simple CSV parser and activity tracker for managing employee activities. The application allows users to add, update, and remove employee activities, as well as display and analyze the data to identify common work periods between employees.
 Features
 CSV Parsing: The project includes a CSVParser class that reads data from a CSV file, validates the format, and parses it into a list of employee activities.
